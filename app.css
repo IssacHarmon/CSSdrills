@@ -1,0 +1,87 @@
+body {
+  font-family: "Paprika";
+  background: rgb(190, 188, 188);
+}
+
+h2,
+p,
+.readme-wrapper {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: cyan;
+}
+a:hover {
+  color: rgb(192, 34, 158);
+  font-style: bold;
+  cursor: pointer;
+}
+.boxes {
+  margin: 1em;
+  padding: 1em;
+  border: solid rgb(251, 255, 0);
+  border-radius: 2em;
+  width: 30em;
+  display: block;
+  background: indianred;
+  position: relative;
+}
+
+.box-background {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: brown;
+  position: absolute;
+  top: 1em;
+  left: 9em;
+}
+
+span {
+    color: rgb(224, 224, 127);
+    font-weight: 800;
+}
+.original {
+  color: rgb(220, 20, 143);
+}
+
+.additional {
+  color: darkcyan;
+}
+
+#show1 {
+  color: darkorange;
+}
+#show2 {
+  color: deeppink;
+}
+#show3 {
+  color: dodgerblue;
+}
+
+#show4 {
+  color: green;
+}
+
+#show5 {
+  color: indigo;
+}
+
+.list {
+    color: cyan;
+}
+
+.star {
+    color: lime;
+}
+
+#wars {
+    color: mediumslateblue;
+}
+
+.divider {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
